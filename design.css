@@ -70,10 +70,26 @@ body {
 .controls i {
   padding: 25px 0;
   text-align: center;
+  color: aliceblue;
   font-size: 1.3rem;
   width: calc(100% / 4);
   cursor: pointer;
   border-right: 1px solid #171B26;
+}
+.controls i.fa-arrow-left:before {
+  content: '\f060';
+}
+
+.controls i.fa-arrow-right:before {
+  content: '\f061';
+}
+
+.controls i.fa-arrow-up:before {
+  content: '\f062';
+}
+
+.controls i.fa-arrow-down:before {
+  content: '\f063';
 }
 @media screen and (max-width: 800px) {
   .wrapper {
